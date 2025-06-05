@@ -11,8 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		     glue= {"stepdefinitions"},		     
 		     dryRun=false,
 		     monochrome=true,
-		     plugin={"pretty","html:CucumberReports/DataDrivenReports.html"},
-		     tags="@Datadriven"
+		     plugin={"pretty","html:CucumberReports/DataDrivenReports.html"}
 		)
 public class TestRunner {
        

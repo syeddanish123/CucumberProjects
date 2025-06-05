@@ -2,5 +2,4 @@ C:\Eclipse\WORKSPACE\BDD_Framework\src\test\java\Basepackage\basepage.java
 C:\Eclipse\WORKSPACE\BDD_Framework\src\test\java\pageobject\HomePage.java
 C:\Eclipse\WORKSPACE\BDD_Framework\src\test\java\stepdefinitions\cartfeature.java
 C:\Eclipse\WORKSPACE\BDD_Framework\src\test\java\stepdefinitions\datadrivenStepDefinition.java
-C:\Eclipse\WORKSPACE\BDD_Framework\src\test\java\testrunner\DatadrivenTestRunner.java
-C:\Eclipse\WORKSPACE\BDD_Framework\src\test\java\testrunner\TestRunnerClass.java
+C:\Eclipse\WORKSPACE\BDD_Framework\src\test\java\testrunner\TestRunner.java
