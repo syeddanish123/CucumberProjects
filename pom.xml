@@ -27,7 +27,7 @@
                     <!-- Option 2: For JUnit -->
                    
                     <includes>
-                        <include>${testRunner}.java</include>
+                        <include>TestRunner.java</include>
                     </includes>
                 <systemPropertyVariables>
                 <cucumber.filter.tags>${cucumber.filter.tags}</cucumber.filter.tags>

@@ -7,12 +7,13 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		     features = {"src/test/resources/parametrize.feature"},
+		     features = {"src/test/resources"},
 		     glue= {"stepdefinitions"},		     
 		     dryRun=false,
 		     monochrome=true,
-		     plugin={"pretty","html:CucumberReports/DataDrivenReports.html"}
+		     plugin={"pretty","html:CucumberReports/DataDrivenReports.html"},
+		     tags="@Datadriven"
 		)
-public class DatadrivenTestRunner {
+public class TestRunner {
        
 }
