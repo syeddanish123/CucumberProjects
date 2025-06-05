@@ -29,7 +29,9 @@
                     <includes>
                         <include>${testRunner}.java</include>
                     </includes>
-                    
+                <systemPropertyVariables>
+                <cucumber.filter.tags>${cucumber.filter.tags}</cucumber.filter.tags>
+                </systemPropertyVariables>
                 </configuration>
         </plugin>
         
